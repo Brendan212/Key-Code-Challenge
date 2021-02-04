@@ -1,14 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 
-
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
     align-items: center;
-    font-family: sans-serif;
-    background-color: grey
+    font-family: 'Potta One', sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
 }
+
+.pageDisplay {
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    background-color: #eee;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px rgba( 0, 0 ,0, 0.1);
+}
+
 
 .keyDisplay {
     display: block;
@@ -31,12 +43,4 @@ html, body {
 #result {
     align-items: center;
     text-align: center;
-}
-
-footer {
-    display: block;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
 }
